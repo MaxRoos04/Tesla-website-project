@@ -20,7 +20,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#36454F',
+        accent: '#B809C3',
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
