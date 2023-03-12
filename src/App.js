@@ -3,7 +3,7 @@ import React from 'react';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Map from './components/Map';
+import SC from './components/SC';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Banner />
       <Nav />
-      <Map />
+      <SC />
       <Services />
       <Work />
       <Contact />
