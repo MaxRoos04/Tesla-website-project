@@ -21,7 +21,7 @@ const SC = () => {
         viewport={{once: false, amount: 0.3}}
         className='flex-1'>
           <h2 className='h2'>Tesla Superchargers in Finland</h2>
-          <h3 className='h4 mb-4 text-gradient'>Supercharger-latausasemat sijaitsevat tärkeimmillä reiteillä lähellä palveluita ja pitävät akkusi ladattuna ollessasi matkalla.</h3>
+          <h3 className='h4 mb-4 text-gradient font-secondary unbold'>Supercharger-latausasemat sijaitsevat tärkeimmillä reiteillä lähellä palveluita ja pitävät akkusi ladattuna ollessasi matkalla.</h3>
           <p className='mb-6'></p>
 
         <div className='flex gap-x-8 items-center'>
