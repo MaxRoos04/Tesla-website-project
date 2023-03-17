@@ -4,9 +4,10 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import SC from './components/SC';
-import Services from './components/Services';
-import Work from './components/Work';
-import Contact from './components/Contact';
+import MdS from './components/MdS';
+import Md3 from './components/Md3';
+import MdX from './components/MdX';
+import MdY from './components/MdY';
 
 const App = () => {
   return (
@@ -15,9 +16,10 @@ const App = () => {
       <Banner />
       <Nav />
       <SC />
-      <Services />
-      <Work />
-      <Contact />
+      <MdS />
+      <Md3 />
+      <MdX />
+      <MdY />
       { <div className='h-[4000px]'></div> }
     </div>
   );
