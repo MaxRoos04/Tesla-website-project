@@ -9,16 +9,11 @@ const Banner = () => {
   return(
   <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
      <div className='container mx-auto'>
-      <div className='flex flex-col lg:flex-row'>
+      <div className='flex-1 bg-Banner bg-contain bg-no-repeat h-[640px]' style={{}}>
      
-      <motion.div 
-        variants={fadeIn('right', 0.3)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{once: false, amount: 0.3}}
-        className='flex-1 lg:bg-Banner bg-no-repeat' style={{width: '100%'}}>
-          <h2 className='h2 text-accent mb-6'>TESLA</h2>
-          <h3 className='h3 max-w-[455px] mb-16 '>Accelerating the world's transition to sustainable energy.</h3>
+      <div className='flex-1'>
+          <h2 className='h2 text-accent mb-6' >TESLA</h2>
+          <h3 className='h3 max-w-[455px] mb-16' >Accelerating the world's transition to sustainable energy.</h3>
           <Link 
             to='work' 
             activeClass='active'
@@ -26,7 +21,7 @@ const Banner = () => {
             spy={true}
             offset={-200}>
          </Link>
-        </motion.div>
+        </div>
         </div>
       </div>
    </section>
