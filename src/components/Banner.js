@@ -16,7 +16,7 @@ const Banner = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{once: false, amount: 0.3}}
-        className='flex-1 lg:bg-Banner bg-no-repeat'>
+        className='flex-1 lg:bg-Banner bg-no-repeat' style={{width: '100%'}}>
           <h2 className='h2 text-accent mb-6'>TESLA</h2>
           <h3 className='h3 max-w-[455px] mb-16 '>Accelerating the world's transition to sustainable energy.</h3>
           <Link 
