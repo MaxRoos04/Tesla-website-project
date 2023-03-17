@@ -12,7 +12,7 @@ const Header = () => {
         </a>
 
         <Link 
-        to='contact' 
+        to='MdS' 
         activeClass='active'
         smooth={true}
         spy={true}
@@ -23,7 +23,7 @@ const Header = () => {
        </Link>
 
        <Link 
-        to='contact' 
+        to='Md3' 
         activeClass='active'
         smooth={true}
         spy={true}
@@ -34,7 +34,7 @@ const Header = () => {
        </Link>
 
        <Link 
-        to='contact' 
+        to='MdX' 
         activeClass='active'
         smooth={true}
         spy={true}
@@ -45,7 +45,7 @@ const Header = () => {
        </Link>
 
        <Link 
-        to='contact' 
+        to='MdY' 
         activeClass='active'
         smooth={true}
         spy={true}

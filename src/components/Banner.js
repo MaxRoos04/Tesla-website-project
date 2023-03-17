@@ -9,7 +9,7 @@ const Banner = () => {
   return(
   <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
      <div className='container mx-auto'>
-      <div className='flex-1 bg-Banner bg-contain bg-no-repeat h-[640px]' style={{}}>
+      <div className='bg-Banner bg-contain bg-no-repeat w-6/6 h-[640px] ' style={{}}>
      
       <div className='flex-1'>
           <h2 className='h2 text-accent mb-6' >TESLA</h2>
