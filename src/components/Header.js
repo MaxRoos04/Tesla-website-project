@@ -12,7 +12,7 @@ const Header = () => {
         </a>
 
         <Link 
-        to='MdS' 
+        to='SC' 
         activeClass='active'
         smooth={true}
         spy={true}
