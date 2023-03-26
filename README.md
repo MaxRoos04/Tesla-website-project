@@ -7,9 +7,12 @@ Inspiration:
 
 </br>
 Decide to go with a much more simplistic design
+</br>
+Not finished product!
 
 </br>
+</br>
 
-(Not Ready) 
+(Project Not Ready) 
 
 
