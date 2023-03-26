@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from '../assets/front-page.png';
 
 const Banner = () => {
   return(
