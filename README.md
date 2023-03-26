@@ -9,7 +9,7 @@ Inspiration:
 Decide to go with a much more simplistic design.
 </br>
 Not finished product!
-![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1089681438326128700/image.png)
+![alt text](https://js.devexpress.com/Content/Images/features/html5-css-javascript-logos.png)
 </br>
 </br>
 
