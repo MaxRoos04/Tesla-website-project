@@ -9,7 +9,7 @@ Inspiration:
 Decide to go with a much more simplistic design.
 </br>
 Not finished product!
-![alt text](https://js.devexpress.com/Content/Images/features/html5-css-javascript-logos.png)
+
 </br>
 </br>
 
