@@ -4,10 +4,10 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import SC from './components/SC';
-import MdS from './components/MdS';
-import Md3 from './components/Md3';
-import MdX from './components/MdX';
-import MdY from './components/MdY';
+import MdS from './Models/MdS';
+import Md3 from './Models/Md3';
+import MdX from './Models/MdX';
+import MdY from './Models/MdY';
 import Footer from './components/footer';
 
 const App = () => {
