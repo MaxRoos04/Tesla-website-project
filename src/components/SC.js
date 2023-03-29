@@ -15,6 +15,7 @@ const SC = () => {
     <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
         
         <motion.div 
+        id = ''
         variants={fadeIn('left', 0.5)}
         initial='hidden'
         whileInView={'show'}

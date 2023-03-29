@@ -16,11 +16,11 @@ const App = () => {
       <Header />
       <Banner />
       <Nav />
-      <SC />
       <MdS />
       <Md3 />
       <MdX />
       <MdY />
+      <SC />
       <Footer />
       { <div className='h-[4000px]'></div> }
     </div>

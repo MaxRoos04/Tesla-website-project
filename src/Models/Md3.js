@@ -1,7 +1,10 @@
 import React from 'react';
+import Stats from '../assets/Md3-stats.png'
 
-const md3 = () => {
-  return <div>md3</div>;
-};
+const mdS = () => {
+  return( <div id='Page2' className=''>
+      <img src={Stats}></img>
+  </div>
+)};
 
-export default md3;
+export default mdS;

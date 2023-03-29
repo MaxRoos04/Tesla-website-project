@@ -7,12 +7,12 @@ const Header = () => {
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
         
-        <a href='#'>
+        <a href='home'>
           <img src={Logo} style={{height:"100px"}}alt=''/>
         </a>
 
         <Link 
-        to='SC' 
+        to='Page1' 
         activeClass='active'
         smooth={true}
         spy={true}
@@ -23,7 +23,7 @@ const Header = () => {
        </Link>
 
        <Link 
-        to='Md3' 
+        to='Page2' 
         activeClass='active'
         smooth={true}
         spy={true}
