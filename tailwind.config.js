@@ -26,6 +26,8 @@ module.exports = {
         site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/Map.png')",
         Banner: "url('./assets/front-page.png')",
+        MDS: "url('./assets/MdS-stats.png')",
+        MD3: "url('./assets/Md3-stats.png')",
       },
     },
   },

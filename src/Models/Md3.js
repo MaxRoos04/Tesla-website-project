@@ -1,10 +1,13 @@
 import React from 'react';
-import Stats from '../assets/Md3-stats.png'
 
 const mdS = () => {
-  return( <div id='Page2' className=''>
-      <img src={Stats}></img>
-  </div>
-)};
+  return <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='page2'>
+      <div className='bg-MD3 lg:bg-right flex-1 h-[600px] text-left bg-no-repeat'>
+        <div className='font-primary'>
+         <h1>Tesla Model 3</h1>
+         </div>
+      </div>
+ </section>
+};
 
 export default mdS;
