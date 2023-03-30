@@ -28,6 +28,8 @@ module.exports = {
         Banner: "url('./assets/front-page.png')",
         MDS: "url('./assets/MdS-fp.png')",
         MD3: "url('./assets/Md3-fp.png')",
+        MDX: "url('./assets/MdX-fp.png')",
+        MDY: "url('./assets/MdY-fp.png')",
       },
     },
   },
