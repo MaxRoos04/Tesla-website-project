@@ -1,5 +1,4 @@
 import React from 'react';
-import Stats from '../assets/MdS-stats.png'
 
 const mdS = () => {
   return <section className='min-h-[85vh] min-w-[200vh] lg:min-h-[78vh] flex items-center' id='page1'>
@@ -7,6 +6,9 @@ const mdS = () => {
         <div className='font-primary'>
          <h1>Tesla Model S</h1>
          </div>
+         <div className='font-secondary'>
+          <h3>With its sleek, sporty design and premium interior, the Model S is the<br></br> ultimate luxury car for the eco-conscious driver.<br></br> And with its all-electric powertrain, you'll enjoy smooth,<br></br> silent acceleration and a range of up to 412 miles on a single charge.</h3>
+        </div>
       </div>
   </section>
 };
