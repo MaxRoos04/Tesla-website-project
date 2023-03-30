@@ -6,6 +6,9 @@ const mdX = () => {
         <div className='font-primary'>
          <h1>Tesla Model X</h1>
          </div>
+         <div className='font-secondary'>
+          <h3>With its falcon-wing doors that open vertically, the Model X is a true head-turner.<br></br> Not only does this feature look impressive, but it also makes getting in and out<br></br> of the car easy, especially in tight parking spaces. And with its all-electric powertrain,<br></br> the Model X is as eco-friendly as it is practical, with a range of up to 371 miles on a single charge.</h3>
+        </div>
       </div>
   </section>
 };
