@@ -6,8 +6,8 @@ const md3 = () => {
         <div className='font-primary'>
           <h1>Tesla Model 3</h1>
          </div>
-        <div className='font-secondary'>¨
-          <h3> <h3>With its sleek, aerodynamic design, the Model 3 is a head-turner on the road.<br></br> But it's not just about looks: this car is designed to be as energy-efficient as possible, <br></br>with an impressive range of up to 353 miles on a single charge.<br></br> And with Tesla's extensive network of charging stations,<br></br> you'll never be far from a top-up.</h3></h3>
+        <div className='font-secondary'>
+          <h3>With its sleek, aerodynamic design, the Model 3 is a head-turner on the road.<br></br> But it's not just about looks: this car is designed to be as energy-efficient as possible, <br></br>with an impressive range of up to 353 miles on a single charge.<br></br> And with Tesla's extensive network of charging stations,<br></br> you'll never be far from a top-up.</h3>
         </div>
       </div>
  </section>
