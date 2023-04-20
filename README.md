@@ -12,7 +12,7 @@ Not finished product!
 </br>
 </br>
 
-![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1089681438326128700/image.png)
+![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1098695214920650792/image.png)
 </br>
 </br>
 (Still in the making!) 
