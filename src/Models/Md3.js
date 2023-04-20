@@ -1,9 +1,9 @@
 import React from "react";
 import CarSection from "../components/CarSection";
 
-const CarPage = () => {
+const Md3 = () => {
   return (
-    <div className="flex flex-col items-center justify-center container mx-auto mt-60">
+    <div id="Md3" className="flex flex-col items-center justify-center container mx-auto mt-60">
       <CarSection
         imageUrl="https://www.tesla.com/sites/default/files/images/support/Meet-Your-Tesla-Model-3.png"
         title="Model 3"
@@ -13,4 +13,4 @@ const CarPage = () => {
   );
 };
 
-export default CarPage;
+export default Md3;

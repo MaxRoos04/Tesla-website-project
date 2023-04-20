@@ -21,7 +21,7 @@ const DropdownMenu = () => {
         <div className="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             <Link
-              to="about"
+              to="MdS"
               smooth={true}
               spy={true}
               offset={-200}
@@ -43,7 +43,7 @@ const DropdownMenu = () => {
               Our Services
             </Link>
             <Link
-              to="testimonials"
+              to="Page1"
               smooth={true}
               spy={true}
               offset={-200}
@@ -51,7 +51,7 @@ const DropdownMenu = () => {
               role="menuitem"
               onClick={toggleDropdown}
             >
-              Testimonials
+              Models
             </Link>
           </div>
         </div>

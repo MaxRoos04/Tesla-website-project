@@ -1,9 +1,9 @@
 import React from "react";
 import CarSection from "../components/CarSection";
 
-const CarPage = () => {
+const MdX = () => {
   return (
-    <div className="container mx-auto mt-60">
+    <div id="MdX" className="container mx-auto mt-60">
       <CarSection
         imageUrl="https://tesla-cdn.thron.com/delivery/public/image/tesla/835626bf-af31-4211-a1a3-37e430a0a6ac/bvlatuR/std/1800x998/Model-X-Order-Hero-Desktop-Mobile-LHD?quality=auto-medium&format=auto"
         title="Model X"
@@ -13,4 +13,4 @@ const CarPage = () => {
   );
 };
 
-export default CarPage;
+export default MdX;

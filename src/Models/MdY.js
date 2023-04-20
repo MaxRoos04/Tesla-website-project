@@ -1,9 +1,9 @@
 import React from "react";
 import CarSection from "../components/CarSection";
 
-const CarPage = () => {
+const MdY = () => {
   return (
-    <div className="container mx-auto mt-60">
+    <div id="MdY" className="container mx-auto mt-60">
       <CarSection
         imageUrl="https://static-assets.tesla.com/configurator/compositor?&bkba_opt=1&view=STUD_3QTR&size=1400&model=my&options=$APBS,$DV2W,$INPB0,$PPSW,$PRMY1,$SC04,$MDLY,$WY20P,$MTY13,$STY5S,$CPF0,$TW01&crop=1400,850,300,130&"
         title="Model Y"
@@ -13,4 +13,4 @@ const CarPage = () => {
   );
 };
 
-export default CarPage;
+export default MdY;

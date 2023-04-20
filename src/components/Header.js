@@ -22,7 +22,7 @@ const Header = () => {
 
           <div className={`nav-links ${isMobile ? "mobile-menu" : ""}`}>
             <Link 
-              to='Page1' 
+              to='MdS' 
               activeClass='active'
               smooth={true}
               spy={true}
@@ -34,7 +34,7 @@ const Header = () => {
             </Link>
 
             <Link 
-              to='Page2' 
+              to='Md3' 
               activeClass='active'
               smooth={true}
               spy={true}
