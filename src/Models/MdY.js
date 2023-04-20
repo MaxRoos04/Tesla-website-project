@@ -3,7 +3,7 @@ import CarSection from "../components/CarSection";
 
 const CarPage = () => {
   return (
-    <div className="container mx-auto mt-10">
+    <div className="container mx-auto mt-60">
       <CarSection
         imageUrl="https://static-assets.tesla.com/configurator/compositor?&bkba_opt=1&view=STUD_3QTR&size=1400&model=my&options=$APBS,$DV2W,$INPB0,$PPSW,$PRMY1,$SC04,$MDLY,$WY20P,$MTY13,$STY5S,$CPF0,$TW01&crop=1400,850,300,130&"
         title="Model Y"

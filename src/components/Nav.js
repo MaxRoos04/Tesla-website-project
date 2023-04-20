@@ -8,7 +8,7 @@ const Nav = () => {
   <div className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
   <div className="container mx-auto">
     {}
-    <div className='w-full h-[96px] max-w-[100px] mx-auto  px-5 flex justify-between items-center text 2x1 text-white/50'>
+    <div className='w-full bg-black/20 h-[76px] max-w-[80px] mx-auto px-5 flex justify-between items-center text 2x1 text-black/50' style={{borderRadius: '50px'}}>
       <Link 
         to='home' 
         activeClass='active'

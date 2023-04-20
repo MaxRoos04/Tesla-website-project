@@ -3,7 +3,7 @@ import CarSection from "../components/CarSection";
 
 const CarPage = () => {
   return (
-    <div className="container mx-auto mt-10">
+    <div className="flex flex-col items-center justify-center container mx-auto mt-60">
       <CarSection
         imageUrl="https://www.tesla.com/sites/default/files/images/support/Meet-Your-Tesla-Model-3.png"
         title="Model 3"

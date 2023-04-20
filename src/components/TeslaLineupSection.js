@@ -6,7 +6,7 @@ const TeslaLineupSection = ({ imageUrl }) => {
       <img
         src={imageUrl}
         alt="Tesla lineup"
-        className="w-96 h-64 object-cover"
+        className="w-170 h-110 object-cover"
       />
       <h2 className="text-2xl font-bold mt-6">Tesla Lineup</h2>
       <p className="text-gray-500 text-lg mt-2">
