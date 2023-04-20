@@ -1,74 +1,90 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from '../assets/logo.png'; 
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import DropdownMenu from "./dropdown"; 
+import './header.css';
 
 const Header = () => {
-  return <header className='py-8'>
-    <div className='container mx-auto'>
-      <div className='flex justify-between items-center'>
-        
-        <a href='home'>
-          <img src={Logo} style={{height:"100px"}}alt=''/>
-        </a>
+  const [isMobile, setIsMobile] = useState(false);
 
-        <Link 
-        to='Page1' 
-        activeClass='active'
-        smooth={true}
-        spy={true}
-        offset={-200}
-        className='h4 cursor-pointer flex items-center justify-center rounded-none'
-        style={{marginTop:"3%"}}>
-        Model S
-       </Link>
+  const toggleMobileMenu = () => {
+    setIsMobile(!isMobile);
+  }
 
-       <Link 
-        to='Page2' 
-        activeClass='active'
-        smooth={true}
-        spy={true}
-        offset={-200}
-        className='h4 cursor-pointer flex items-center justify-center rounded-none'
-        style={{marginTop:"3%"}}>
-        Model 3
-       </Link>
+  return (
+    <header className='py-8'>
+      <div className='container mx-auto'>
+        <div className='flex justify-between items-center'>
 
-       <Link 
-        to='MdX' 
-        activeClass='active'
-        smooth={true}
-        spy={true}
-        offset={-200}
-        className='h4 cursor-pointer flex items-center justify-center rounded-none'
-        style={{marginTop:"3%"}}>
-        Model X
-       </Link>
+          <a href='home'>
+            <img src={Logo} style={{height:"100px"}}alt=''/>
+          </a>
 
-       <Link 
-        to='MdY' 
-        activeClass='active'
-        smooth={true}
-        spy={true}
-        offset={-200}
-        className='h4 cursor-pointer flex items-center justify-center rounded-none'
-        style={{marginTop:"3%"}}>
-        Model Y
-       </Link>
+          <div className={`nav-links ${isMobile ? "mobile-menu" : ""}`}>
+            <Link 
+              to='Page1' 
+              activeClass='active'
+              smooth={true}
+              spy={true}
+              offset={-200}
+              className='h4 cursor-pointer rounded-none'
+              onClick={() => setIsMobile(false)}
+            >
+              Model S
+            </Link>
 
-       <Link 
-        to='contact' 
-        activeClass='active'
-        smooth={true}
-        spy={true}
-        offset={-200}
-        className='h4 cursor-pointer flex items-center justify-center rounded-none'
-        style={{marginTop:"3%"}}>
-        More
-       </Link>
+            <Link 
+              to='Page2' 
+              activeClass='active'
+              smooth={true}
+              spy={true}
+              offset={-200}
+              className='h4 cursor-pointer rounded-none'
+              onClick={() => setIsMobile(false)}
+            >
+              Model 3
+            </Link>
 
+            <Link 
+              to='MdX' 
+              activeClass='active'
+              smooth={true}
+              spy={true}
+              offset={-200}
+              className='h4 cursor-pointer rounded-none'
+              onClick={() => setIsMobile(false)}
+            >
+              Model X
+            </Link>
+
+            <Link 
+              to='MdY' 
+              activeClass='active'
+              smooth={true}
+              spy={true}
+              offset={-200}
+              className='h4 cursor-pointer rounded-none'
+              onClick={() => setIsMobile(false)}
+            >
+              Model Y
+            </Link>
+
+            <DropdownMenu>
+            </DropdownMenu>
+          </div>
+
+          <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+            {isMobile ? (
+              <i className="fas fa-times"></i>
+            ) : (
+              <i className="fas fa-bars"></i>
+            )}
+          </div>
+
+        </div>
       </div>
-    </div>
-    </header>;
+    </header>
+  );
 };
 
 export default Header;
