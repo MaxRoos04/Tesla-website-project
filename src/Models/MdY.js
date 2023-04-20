@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
+import CarSection from "../components/CarSection";
 
-const mdY = () => {
-  return <section className='min-h-[85vh] min-w-[200vh] lg:min-h-[78vh] flex items-center' id='page1'>
-      <div className='bg-MDY lg:bg-right flex-1 h-[600px] text-left bg-no-repeat'>
-        <div className='font-primary'>
-         <h1>Tesla Model Y</h1>
-         </div>
-         <div className='font-secondary'>
-          <h3>With its spacious interior, room for up to seven passengers, and ample cargo space,<br></br> the Model Y is the perfect car for families, adventurers,<br></br> and anyone who wants to combine style and functionality.And with its all-electric powertrain,<br></br> the Model Y is as eco-friendly as it is practical, with a range of up to 326 miles on a single charge.</h3>
-        </div>
-      </div>
-  </section>
+const CarPage = () => {
+  return (
+    <div className="container mx-auto mt-10">
+      <CarSection
+        imageUrl="https://static-assets.tesla.com/configurator/compositor?&bkba_opt=1&view=STUD_3QTR&size=1400&model=my&options=$APBS,$DV2W,$INPB0,$PPSW,$PRMY1,$SC04,$MDLY,$WY20P,$MTY13,$STY5S,$CPF0,$TW01&crop=1400,850,300,130&"
+        title="Model Y"
+        description="The Model Y is Tesla's newest SUV, combining the versatility of a crossover with the performance and range of a Tesla. With room for up to seven passengers and plenty of cargo space, the Model Y is perfect for families or anyone who needs a little extra room."
+      />
+    </div>
+  );
 };
 
-export default mdY;
+export default CarPage;

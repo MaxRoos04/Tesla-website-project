@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
+import CarSection from "../components/CarSection";
 
-const mdX = () => {
-  return <section className='min-h-[85vh] min-w-[200vh] lg:min-h-[78vh] flex items-center' id='page1'>
-      <div className='bg-MDX lg:bg-right flex-1 h-[600px] text-left bg-no-repeat'>
-        <div className='font-primary'>
-         <h1>Tesla Model X</h1>
-         </div>
-         <div className='font-secondary'>
-          <h3>With its falcon-wing doors that open vertically, the Model X is a true head-turner.<br></br> Not only does this feature look impressive, but it also makes getting in and out<br></br> of the car easy, especially in tight parking spaces. And with its all-electric powertrain,<br></br> the Model X is as eco-friendly as it is practical, with a range of up to 371 miles on a single charge.</h3>
-        </div>
-      </div>
-  </section>
+const CarPage = () => {
+  return (
+    <div className="container mx-auto mt-10">
+      <CarSection
+        imageUrl="https://tesla-cdn.thron.com/delivery/public/image/tesla/835626bf-af31-4211-a1a3-37e430a0a6ac/bvlatuR/std/1800x998/Model-X-Order-Hero-Desktop-Mobile-LHD?quality=auto-medium&format=auto"
+        title="Model X"
+        description="The Model X is a premium SUV that offers the same impressive performance and range as the Model S, with the added bonus of falcon-wing doors and a spacious interior that can seat up to seven passengers."
+      />
+    </div>
+  );
 };
 
-export default mdX;
+export default CarPage;
