@@ -16,7 +16,7 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
 
-          <a href='home'>
+          <a href='home' className='Logo'>
             <img src={Logo} style={{height:"100px"}}alt=''/>
           </a>
 
@@ -27,10 +27,10 @@ const Header = () => {
               smooth={true}
               spy={true}
               offset={-200}
-              className='h4 cursor-pointer rounded-none'
+              className='h4 cursor-pointer rounded-none model-mobile'
               onClick={() => setIsMobile(false)}
             >
-              Model S
+              <span>Model</span> S
             </Link>
 
             <Link 
@@ -39,10 +39,10 @@ const Header = () => {
               smooth={true}
               spy={true}
               offset={-200}
-              className='h4 cursor-pointer rounded-none'
+              className='h4 cursor-pointer rounded-none model-mobile'
               onClick={() => setIsMobile(false)}
             >
-              Model 3
+              <span>Model</span> 3
             </Link>
 
             <Link 
@@ -51,10 +51,10 @@ const Header = () => {
               smooth={true}
               spy={true}
               offset={-200}
-              className='h4 cursor-pointer rounded-none'
+              className='h4 cursor-pointer rounded-none model-mobile'
               onClick={() => setIsMobile(false)}
             >
-              Model X
+              <span>Model</span> X
             </Link>
 
             <Link 
@@ -63,10 +63,10 @@ const Header = () => {
               smooth={true}
               spy={true}
               offset={-200}
-              className='h4 cursor-pointer rounded-none'
+              className='h4 cursor-pointer rounded-none model-mobile'
               onClick={() => setIsMobile(false)}
             >
-              Model Y
+              <span>Model</span> Y
             </Link>
 
             <DropdownMenu>

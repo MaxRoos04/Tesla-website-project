@@ -110,4 +110,16 @@ nav {
       margin-left: auto;
     }
   }
+
+  @media (max-width: 540px) {
+    .nav-links a.model-mobile span {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    .Logo {
+      display: none;
+    }
+  }
   
