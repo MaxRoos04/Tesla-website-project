@@ -9,7 +9,7 @@ const TeslaLineupSection = ({ imageUrl }) => {
         className="w-170 h-110 object-cover"
       />
       <h2 className="text-2xl font-bold mt-6">Tesla Lineup</h2>
-      <p className="text-gray-500 text-lg mt-2">
+      <p className="font-secondary unbold">
         Overall, Tesla's lineup offers something for everyone, from luxury
         sedans to affordable crossovers. No matter which model you choose, you
         can expect the same cutting-edge technology, incredible performance,
