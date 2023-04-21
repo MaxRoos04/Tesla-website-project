@@ -61,7 +61,6 @@ nav {
   .dropdown-content {
     display: none;
     position: absolute;
-    z-index: 1;
   }
   
   .dropdown:hover .dropdown-content {
@@ -78,6 +77,11 @@ nav {
   .dropdown-content a:hover {
     background-color: #ddd;
   }
+
+  #DP-M {
+    z-index: 2;
+  }
+  
     
   @media screen and (max-width: 768px) {
     nav {
