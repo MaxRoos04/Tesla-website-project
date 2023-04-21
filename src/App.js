@@ -10,6 +10,7 @@ import MdX from './Models/MdX';
 import MdY from './Models/MdY';
 import Summary from './Pages/Summary';
 import Solarpanel from './Pages/Solarpanel';
+import Solarpanelp from './Pages/Solarpanel-p';
 import Footer from './components/footer';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Summary/>
       <SC />
       <Solarpanel />
+      <Solarpanelp />
       <Footer />
       { <div className='h-[4000px]'></div> }
     </div>
